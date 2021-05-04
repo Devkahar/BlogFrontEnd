@@ -5,9 +5,10 @@ const Home = () => {
     return (
         <>
             {/* Nav Bar */}
-            <NavBar/>
-            <h1>Hello</h1>
+            <NavBar />
+
             {/* Articles Reccomendations */}
+
             {/* Creator to Follow 
                 Topic To Follow
             */}

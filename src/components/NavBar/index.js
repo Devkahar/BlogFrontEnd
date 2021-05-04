@@ -1,12 +1,11 @@
 import React from 'react'
 import BookmarksOutlinedIcon from '@material-ui/icons/BookmarksOutlined';
 import NotificationsNoneOutlinedIcon from '@material-ui/icons/NotificationsNoneOutlined';
-
-
 import "./style.css"
 import logo from '../../assets/logo.svg'
 import { Avatar } from '@material-ui/core';
 import Search from '../Search';
+import Auth from '../Auth';
 
 const NavBar = () => {
     return (
@@ -36,6 +35,12 @@ const NavBar = () => {
                     {/* Profile */}
                     <div className="nav-items">
                         <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                    </div>
+                    <div className="nav-items">
+                        <Auth type='signin'/>
+                    </div>
+                    <div className="nav-items">
+                        <Auth type='signup'/>
                     </div>
 
                 </nav>
