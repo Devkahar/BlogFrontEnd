@@ -1,0 +1,28 @@
+.nav {
+    height: 65px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.logo-sideline{
+    margin-left: 12px;
+    height: 45px;
+    width: 2px;
+    background-color: #757575;
+    /* transform: rotate(90deg); */
+}
+.nav-items> .MuiSvgIcon-root{
+    font-size: 22px;
+    fill: #757575;
+}
+.nav-items:not(:last-child){
+    margin-right: 18px;
+}
+
+.logo-img-container{
+    height: 31px;
+    width:  206px; 
+}
+.logo-img-container > .logo-desktop{
+    height:100%;
+    width:100%;
+}

@@ -1,0 +1,33 @@
+.s-icon>.MuiSvgIcon-root {
+    font-size: 22px;
+    fill: #757575;    
+}
+/* .s-icon-d{
+    margin-right: 60px;
+    transition: all 2s;
+} */
+.searchInput{
+    display: none;
+    
+}
+.searchSubmit{
+    display: none;
+}
+.d-searchInput{
+    transition: all 2s;
+    outline: none;
+    display: block;
+    border: 2px solid transparent;
+    color: #292929;
+    animation: searchan 0.5s ease;
+}
+@keyframes searchan{
+    0%{
+        opacity: 0;
+        margin-right: -20px;
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0px;
+    }
+  }
