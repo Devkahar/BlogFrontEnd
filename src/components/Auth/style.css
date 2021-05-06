@@ -20,6 +20,9 @@
     border-bottom: 2px solid #ccc;
     margin-bottom: 40px;
 }
+.formInput:focus{
+    border-bottom: 2px solid #000;
+}
 .MuiDialog-paperWidthSm{
     max-width: none !important;
 }

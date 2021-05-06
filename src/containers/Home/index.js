@@ -5,14 +5,12 @@ const Home = () => {
     return (
         <>
             {/* Nav Bar */}
-            <NavBar />
-
+            <NavBar />  
             {/* Articles Reccomendations */}
 
             {/* Creator to Follow 
                 Topic To Follow
             */}
-
             {/* Trending Articles */}
 
             {/* Endless List of articles According to user taste */}

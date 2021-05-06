@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const token = window.localStorage.getItem('token') || null;
+const user = window.localStorage.getItem('userInfo') || null;
 const instance = axios.create({
     headers: {
-        authorization:  token? `Bearer ${token}`:''
+        authorization:  user? `Bearer ${user.token}`:''
     }
 })
 export default instance;
